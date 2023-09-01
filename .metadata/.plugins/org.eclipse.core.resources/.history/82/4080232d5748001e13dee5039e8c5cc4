@@ -1,0 +1,20 @@
+import java.util.*;
+import java.io.*;
+
+public class Lexico {
+	public void lerLexico(String arquivo){
+		Scanner sc;
+		try {
+			sc = new Scanner(new File(arquivo));
+			sc.useDelimiter(",");
+			while (sc.hasNext()) {  
+				String palavra[] = sc.next().split(";");
+				System.out.print("Abreviação: " + palavra[0] + " | Palavra: " + palavra[1]);
+			}   
+			sc.close();
+		}
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}  
+	}
+}

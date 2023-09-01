@@ -1,0 +1,13 @@
+
+public class Main {
+	public static void main(String[] args) {
+		String datasetPath = "src/preadores-br.xml";
+		String lexicoPath = "src/NetSpeak.csv";
+		
+		Dataset dataset = new Dataset();
+		Lexico lexico = new Lexico();
+		
+		//dataset.lerDataset(datasetPath);
+		lexico.lerLexico(lexicoPath);
+	}
+}
