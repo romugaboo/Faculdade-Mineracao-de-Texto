@@ -1,6 +1,0 @@
-import java.util.*;
-public class Palavras {
-	public void Palavras(String msg) {
-		
-	}
-}
