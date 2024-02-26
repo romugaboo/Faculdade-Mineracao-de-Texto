@@ -47,7 +47,7 @@ public class Palavra {
 	    //contadorOrdenado.entrySet().forEach((entry) -> System.out.println(entry.getKey() + " : " + entry.getValue()));
 	    for (Map.Entry<String, Integer> entry : datasetOrdenado.entrySet()) {
             if (qntdPalavras < 100) {
-                System.out.println(qntdPalavras+1 +" - Palavra: " + entry.getKey() + " | Ocorrências: " + entry.getValue());
+                System.out.println(qntdPalavras+1 +"" + entry.getKey() + "" + entry.getValue());
                 qntdPalavras++;
             } else {
                 break;
@@ -74,7 +74,7 @@ public class Palavra {
 	    qntdPalavras = 0;
 	    for (Map.Entry<String, Integer> entry : lexicoOrdenado.entrySet()) {
             if (qntdPalavras < 20) {
-                System.out.println(qntdPalavras+1 +" - Palavra: " + entry.getKey() + " | Ocorrências: " + entry.getValue());
+                System.out.println(qntdPalavras+1 +"" + entry.getKey() + "" + entry.getValue());
                 qntdPalavras++;
             } else {
                 break;

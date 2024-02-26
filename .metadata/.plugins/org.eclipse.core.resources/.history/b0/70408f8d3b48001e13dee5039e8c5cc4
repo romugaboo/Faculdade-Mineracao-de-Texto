@@ -1,9 +1,0 @@
-
-public class Main {
-	public static void main(String[] args) {
-		String datasetPath = "\"C:\\Users\\Lari\\Documents\\Faculdade\\6° Período\\3 - Mineração de Texto\\Code\\Trabalho 1\\src\\preadores-br.xml\"";
-		String lexicoPath = "NetSpeak.csv";
-		LerDataset dataset = new LerDataset();
-		dataset.lerxml(datasetPath);
-	}
-}
